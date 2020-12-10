@@ -39,7 +39,7 @@ button:hover {
 
 <p id="demo">Prueba tu suerte</p>
 
-<p id="random">""</p> 
+<p id="hola"></p> 
 
 </div>
 
@@ -48,15 +48,26 @@ button:hover {
 <script>
 function myFunction() 
 	{
-  var str = document.getElementById("demo").innerHTML; 
+  var str = document.getElementById("demo"); 
   var res = str.replace("Prueba tu suerte", "¡Ganaste!");
   var no = str.replace("Prueba tu suerte", "¡Perdiste! Segui intentando");
   var random = Math.random();
+  var muestra = document.getElementById('hola');
 
-  	if (random > 0.5) {document.getElementById("demo").innerHTML = res;}
-  	else {document.getElementById("demo").innerHTML = no;}
+  	if (random > 0.5) {
+  		document.getElementById("demo").innerHTML = res;
+  		muestra.innerHTML = "Tu numero es: "+random;
 
-  	console.log(random)
+  		}
+  	else {
+  		document.getElementById("demo").innerHTML = no;
+  		muestra.innerHTML = "Tu numero es: "+random;
+  		}
+
+  	console.log(muestra);
+
+}
+
     
 /* ;
         function agregartxt1(){                
@@ -68,8 +79,7 @@ document.getElementById("demo").appendChild(text);
 
 
    
-  }
-
+ 
 	random.appendChild = (myFunction)
 
 
