@@ -1,0 +1,19 @@
+p {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+button {
+	margin: auto;
+	font-size: 18px;
+	border-radius: 50%;
+	border-width: 0;
+	padding: 30px;
+	display: block;
+}
+
+button:hover {
+	background-color: blue;
+	color:white;
+}
