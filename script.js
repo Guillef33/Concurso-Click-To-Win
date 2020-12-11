@@ -1,5 +1,3 @@
-alert("Hola");
-
 function myFunction() 
 	{
   var str = document.getElementById("demo"); 
