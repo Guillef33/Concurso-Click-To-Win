@@ -19,3 +19,6 @@ function myFunction()
   	console.log(muestra);
 
 }
+
+
+document.getElementById('esto').innerHTML = "Si perdiste en el anterior juego, ahora tenés una segunda oportunidad. ¡Metele! El que no arriesga no gana.";
