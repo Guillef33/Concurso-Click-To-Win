@@ -1,3 +1,10 @@
+.card {
+-webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+}
+
+
 p {
 	text-align: center;
 	font-size: 18px;
@@ -9,7 +16,7 @@ button {
 	font-size: 18px;
 	border-radius: 50%;
 	border-width: 0;
-	padding: 30px;
+	padding: 20px;
 	display: block;
 }
 
